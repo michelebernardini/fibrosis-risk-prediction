@@ -5,3 +5,12 @@ This study presents a Machine Learning (ML)-based Clinical Decision Support Syst
 The framework is developed using extensive Electronic Health Record (EHR) data from 1,272,572 patients over a 15-year clinical history. It provides a robust foundation for monitoring fibrosis risk by implementing a screening method for NAFLD patients, leveraging well-established clinical indicators, such as hepatic steatosis index (HSI) and fibrosis-4 index (FIB-4). The ML core of the proposed CDSS for predicting fibrosis risk in NAFLD patients is represented by an interpretable and reliable eXtreme Gradient Boosting (XGB) model.
 The study's findings indicate promising results for screening and monitoring fibrosis risk in NAFLD patients, achieving the best AUC of 92.80.
 In a real-world clinical scenario, the proposed CDSS has the capability to speed up patient screening and monitoring, reduce healthcare costs and improve diagnostic accuracy.
+
+To execute the script:
+- Run 'main_CDSS.py' to train and evaluate the XGB model for both Case 1 and Case 2.
+
+'XY_case1.csv' and 'XY_case2.csv' files represent the already preprocessed data to be given as input to the XGB model:
+  - Case 1: 12960 patients (11242 control, 1718 fibrosis) and 85 predictors (168 Predictors+∆)
+  - Case 2: 25478 patients (22087 control, 3391 fibrosis) and 89 predictors (176 Predictors+∆)
+
+'XY_case1.csv' and 'XY_case2.csv' files represent proprietary data and actually cannot be shared. They will soon be shared as pseudodata to execute the script.  
