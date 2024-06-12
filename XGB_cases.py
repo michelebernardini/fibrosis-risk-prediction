@@ -95,7 +95,7 @@ def XGB_cases(file, OUT, IN):
         parameters = {'n_estimators': [150, 200],
                       'max_depth': [25, 50, 75]}
 
-        model = GridSearchCV(estimator=classifier, param_grid=[parameters], cv=skf_int, scoring='roc_auc')
+        model = GridSearchCV(estimator=classifier, param_grid=[parameters], cv=skf_int, scoring='recall_macro')
         model.fit(X_train_outer, y_train_outer)
 
         best_pars = model.best_params_
