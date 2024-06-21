@@ -92,8 +92,9 @@ def XGB_cases(file, OUT, IN):
         classifier = xgb.XGBClassifier(objective='binary:logistic', random_state=1, missing=-999,
                                        importance_type='weight')
 
-        parameters = {'n_estimators': [150, 200],
-                      'max_depth': [25, 50, 75]}
+        parameters = {'n_estimators': [75, 100, 150, 200],
+                      'max_depth': [6, 25, 50, 75],
+                     'eta': [0.05, 0.1, 0.2, 0.3]}
 
         model = GridSearchCV(estimator=classifier, param_grid=[parameters], cv=skf_int, scoring='recall_macro')
         model.fit(X_train_outer, y_train_outer)
