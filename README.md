@@ -10,7 +10,7 @@ To execute the script:
 - Run 'main_CDSS.py' to train and evaluate the XGB model for both Case 1 and Case 2.
 
 'XY_case1.csv' and 'XY_case2.csv' files represent the already preprocessed data to be given as input to the XGB model:
-  - Case 1: 12960 patients (11242 control, 1718 fibrosis) and 85 predictors (168 Predictors+∆)
-  - Case 2: 25478 patients (22087 control, 3391 fibrosis) and 89 predictors (176 Predictors+∆)
+  - Case 1: 12960 patients (11242 control, 1718 fibrosis) and 86 predictors (170 Predictors+∆)
+  - Case 2: 25478 patients (22087 control, 3391 fibrosis) and 90 predictors (178 Predictors+∆)
 
 'XY_case1.csv' and 'XY_case2.csv' files represent proprietary data and actually cannot be shared. They will soon be shared as pseudodata to execute the script.  
