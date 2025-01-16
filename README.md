@@ -13,4 +13,4 @@ To execute the script:
   - Case 1: 12960 patients (11242 control, 1718 fibrosis) and 86 predictors (170 Predictors+∆)
   - Case 2: 25478 patients (22087 control, 3391 fibrosis) and 90 predictors (178 Predictors+∆)
 
-'XY_case1.csv' and 'XY_case2.csv' files represent proprietary data and actually cannot be shared. They will soon be shared as pseudodata to execute the script.  
+'XY_case1.csv' and 'XY_case2.csv' files represent proprietary data and actually cannot be shared. They will soon be shared as pseudodata to execute the script.
