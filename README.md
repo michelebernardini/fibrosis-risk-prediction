@@ -1,10 +1,10 @@
 # fibrosis-risk-prediction
 
-Hepatic steatosis, or nonalcoholic fatty liver disease (NAFLD), affects a significant portion of the global population and can lead to more severe liver conditions, including hepatic fibrosis. Early and accurate risk prediction of fibrosis is crucial for timely intervention. Traditional diagnostic methods are invasive and carry risks, while imaging techniques and blood-based biomarkers have limitations in routine clinical practice.
-This study presents a machine learning (ML)-based clinical decision support system (CDSS) designed to assess the risk of hepatic fibrosis in patients with NAFLD using routine laboratory tests. 
-The framework is developed using extensive electronic health record data from 1,272,572 patients over a 15-year clinical history. 
-It provides a robust foundation for monitoring fibrosis risk by implementing a novel screening method for NAFLD patients. This method innovatively preprocesses predictors by leveraging well-established clinical indicators, such as the hepatic steatosis index and fibrosis-4 index, alongside a minimal and selected number of routine lab tests, making it practical and cost-effective for widespread clinical use. The ML core of the proposed CDSS is represented by a reliable and transparent eXtreme Gradient Boosting model.
-The study's findings indicate promising results for screening and monitoring fibrosis risk in NAFLD patients, achieving the best AUC of 92.97.
+Hepatic steatosis, or nonalcoholic fatty liver disease (NAFLD), affects a significant portion of the global population and can lead to more severe liver conditions, including hepatic fibrosis. Early and accurate risk prediction of fibrosis is crucial for timely intervention. Traditional diagnostic methods are invasive and carry risks, while imaging techniques and blood-based biomarkers have limitations in routine general practice.
+This study presents a machine learning-based clinical decision support system designed to assess the risk of hepatic fibrosis in patients with NAFLD using routine laboratory tests. 
+The framework is developed using electronic health record data collected over 15 years, initially encompassing 1,272,572 patients from general practice. After applying clinical selection criteria, two cohorts of 12,960 and 25,478 patients were used for model development and evaluation.
+The proposed approach provides a robust foundation for monitoring fibrosis risk by implementing a novel screening method, which preprocesses predictors by leveraging well-established clinical indicators (e.g., hepatic steatosis index, fibrosis-4 index), alongside a selected minimal number of predictors, making it practical and cost-effective for widespread clinical use. 
+The study's findings indicate promising results for screening and monitoring fibrosis risk in NAFLD patients, achieving the best AUC of 92.97%, PRAUC of 75.44%, and Sensitivity of 79.63%.
 
 To execute the script:
 - Run 'main_CDSS.py' to train and evaluate the XGB model for both Case 1 and Case 2.
